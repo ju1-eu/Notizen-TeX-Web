@@ -1,0 +1,4 @@
+ju 11-Aug-2020 git-log.txt
+* 0ac4066 (HEAD -> master) script bildoptimierung
+* ec58c26 (origin/master) README
+* 0634478 Projekt init

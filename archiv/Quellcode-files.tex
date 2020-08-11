@@ -1,0 +1,28 @@
+% ---------------------------------
+% Quellcode 'code/' in Latex speichern. 
+% 'archiv/Quellcode-files.tex' 
+% HTML, Python, Bash, C, C++, TeX 
+% ju 11-Aug-2020 Quellcode-files.tex
+% ---------------------------------
+%
+
+\section{hallowelt}
+
+%hallowelt.c (\autoref{code:hallowelt-1}).% Referenz
+%
+\lstset{language=C}% HTML, Python, Bash, C, C++, TeX
+\lstinputlisting[% anpassen
+    caption={Quellcode in C: hallowelt.c}, %label={code:hallowelt-1}
+]{code/hallowelt.c}% file
+
+\newpage
+\section{hallowelt-C++}
+
+%hallowelt-C++.cpp (\autoref{code:hallowelt-C++-1}).% Referenz
+%
+\lstset{language=C++}% HTML, Python, Bash, C, C++, TeX
+\lstinputlisting[% anpassen
+    caption={Quellcode in C++: hallowelt-C++.cpp}, %label={code:hallowelt-C++-1}
+]{code/hallowelt-C++.cpp}% file
+
+\newpage
