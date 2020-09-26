@@ -1,3 +1,4 @@
-ju 11-Aug-2020 git-log.txt
-* 073aeaa (HEAD -> master) github
+ju 19-Sep-2020 git-log.txt
+* 4adf848 (HEAD -> master) literatur-kfz.bib
+* 073aeaa (origin/master) github
 * c823153 Projekt init
