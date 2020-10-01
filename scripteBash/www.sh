@@ -4,7 +4,7 @@
 # index.html + pics.html erstellen
 
 # Variable anpassen
-THEMA="Vektorgrafiken-SVG-EPS"
+THEMA="Notizen-TeX-Web"
 css="css/github.css" # oder design.css
 html="html"
 file="index.html"
@@ -43,7 +43,7 @@ echo "<!--$copyright-->"  > $file
 echo "$T1"               >> $file
 echo "$T2"               >> $file
 echo "$T4"               >> $file
-echo "	<h1>dummy-notizenUbuntu-v03</h1>
+echo "	<h1>$THEMA</h1>
 	<!-- Navi -->
 	<ul class=\"nav\">"  >> $file
 

@@ -5,7 +5,7 @@
 
 # Variablen
 #------------------------------------------------------
-	THEMA="Vektorgrafiken-SVG-EPS" # = REPOSITORY
+	THEMA="Notizen-TeX-Web" # = REPOSITORY
 	repos_USB="/media/jan/usb/repos/notizenUbuntu"    
 	repos_HD="/media/jan/virtuell/repos/notizenUbuntu"
 #------------------------------------------------------
