@@ -1,14 +1,43 @@
----
-title: 'README'
-author: ''
-date: \today
-bibliography: literatur.bib 
-csl: zitierstil-number.csl
----
-<!--ju 11-Aug-20 -->
+# README
+<!--ju 8-Okt-20 -->
 Erstellt Websiten & Latex-Files mit Markdown und Pandoc.
 Projekt wurde getestet unter "Ubuntu 18.04.3 LTS" und "Win10" 
-(erfordert **Git Bash**)    
+(erfordert **Git Bash**)  
+
+# Kurzbefehle
+
+**Linux-Terminal** oder unter Win10 **Git Bash-Terminal** öffnen
+
+```
+# Schreiben in Markdown o. Illustrator o. Excel
+
+./projekt.sh  # Schritt 2, 3, 5
+##########################################################
+	0) Projekt aufräumen
+	1) Projekt erstellen
+	2) Markdown in (tex, html5) + sed (Suchen/Ersetzen)
+	3) Kapitel erstellen + Scripte ausführen
+	4) Fotos optimieren (Web, Latex)
+	5) www + index.html
+	6) git init
+	7) git status + git log
+	8) Git-Version erstellen
+	9) Backup + Archiv erstellen
+##########################################################
+
+# PDF erstellen
+make distclean
+make
+make clean
+
+# Git Version
+git add .
+git commit -a
+git push
+
+# Backup
+./projekt.sh  # Schritt 9
+```  
     
 # Software
 
@@ -74,7 +103,7 @@ Projekt wurde getestet unter "Ubuntu 18.04.3 LTS" und "Win10"
 4. `content/metadata.tex`
 	- Datum, Titel, Autor
 5. `content/titelpage.tex`
-	- "Grafiken/logo.pdf"
+	- "Grafiken/logo.eps"
 
 **Markdown-Files erstellen**
 	
@@ -84,7 +113,7 @@ Projekt wurde getestet unter "Ubuntu 18.04.3 LTS" und "Win10"
 	
 2. Script ausführen: `projekt.sh`
 
-**Linux-Terminal** öffnen oder unter Win10 **Git Bash-Terminal** öffnen
+**Linux-Terminal** oder unter Win10 **Git Bash-Terminal** öffnen
 
 ```
 $ ./projekt.sh

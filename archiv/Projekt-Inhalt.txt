@@ -1,128 +1,186 @@
 % ---------------------------------
 % Inhalt vom Projektverzeichnis.
 % 'archiv/Projekt-Inhalt.txt'
-% ju 11-Aug-2020 Projekt-Inhalt.txt
+% ju 08-Okt-2020 Projekt-Inhalt.txt
 % ---------------------------------
 % 
 /c/daten/tex/Notizen-TeX-Web
--rw-r--r-- 1 jan 197121 5,3K Aug 11 17:47 README.md
+-rw-r--r-- 1 jan 197121 6,0K Okt  8 15:34 README.md
+-rw-r--r-- 1 jan 197121 1,6K Okt  8 11:05 print.tex
+-rw-r--r-- 1 jan 197121  13K Okt  7 15:52 praeambel.sty
+-rw-r--r-- 1 jan 197121 4,8K Okt  7 15:26 praeambel-artikel.sty
+-rw-r--r-- 1 jan 197121 1,5K Okt  7 11:33 book.tex
+-rw-r--r-- 1 jan 197121  261 Okt  1 14:12 git-log.txt
+-rw-r--r-- 1 jan 197121 402K Aug 11 17:57 README.pdf
+-rw-r--r-- 1 jan 197121 116K Aug 11 17:56 print.pdf
+-rw-r--r-- 1 jan 197121 116K Aug 11 17:56 book.pdf
+-rw-r--r-- 1 jan 197121  920 Aug 11 17:51 index.html
+-rw-r--r-- 1 jan 197121  914 Aug 11 17:51 README-artikel.tex
 -rwxr-xr-x 1 jan 197121 6,3K Aug 11 17:47 projekt.sh
--rw-r--r-- 1 jan 197121  13K Aug 11 17:44 praeambel.sty
--rw-r--r-- 1 jan 197121 1,6K Aug 11 17:44 print.tex
--rw-r--r-- 1 jan 197121 4,7K Aug 11 17:44 praeambel-artikel.sty
--rw-r--r-- 1 jan 197121  133 Aug 11 17:44 git-log.txt
--rw-r--r-- 1 jan 197121 1,5K Aug 11 17:44 book.tex
--rw-r--r-- 1 jan 197121  965 Aug 11 17:44 README.tex
 -rw-r--r-- 1 jan 197121 1,4K Aug 11 17:44 Makefile
 
-archiv:
-total 19K
--rw-r--r-- 1 jan 197121  203 Aug 11 17:51 Projekt-Inhalt.txt
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:51 .
--rw-r--r-- 1 jan 197121  211 Aug 11 17:51 input-PDFs.txt
--rw-r--r-- 1 jan 197121 2,0K Aug 11 17:51 inhalt.tex
--rw-r--r-- 1 jan 197121  271 Aug 11 17:51 input-img.txt
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
-
 tex-pandoc:
-total 29K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:51 .
--rw-r--r-- 1 jan 197121 6,6K Aug 11 17:51 Spickzettel-Markdown.tex
--rw-r--r-- 1 jan 197121 7,9K Aug 11 17:51 README.tex
--rw-r--r-- 1 jan 197121   28 Aug 11 17:51 Neu.tex
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 37K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:36 .
+-rw-r--r-- 1 jan 197121 6,6K Okt  8 15:36 Spickzettel-Markdown.tex
+-rw-r--r-- 1 jan 197121 8,8K Okt  8 15:36 README.tex
+-rw-r--r-- 1 jan 197121   28 Okt  8 15:36 Neu.tex
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
 
 html:
-total 40K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:51 .
--rw-r--r-- 1 jan 197121 8,9K Aug 11 17:51 Spickzettel-Markdown.html
--rw-r--r-- 1 jan 197121  12K Aug 11 17:51 README.html
--rw-r--r-- 1 jan 197121  877 Aug 11 17:51 Neu.html
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 52K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:36 .
+-rw-r--r-- 1 jan 197121 8,9K Okt  8 15:36 Spickzettel-Markdown.html
+-rw-r--r-- 1 jan 197121  13K Okt  8 15:36 README.html
+-rw-r--r-- 1 jan 197121  877 Okt  8 15:36 Neu.html
+-rw-r--r-- 1 jan 197121 1,1K Okt  8 15:36 alle-pics.html
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
 
 cms-server:
-total 33K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:51 .
--rw-r--r-- 1 jan 197121 7,5K Aug 11 17:51 Spickzettel-Markdown.html
--rw-r--r-- 1 jan 197121  11K Aug 11 17:51 README.html
--rw-r--r-- 1 jan 197121   20 Aug 11 17:51 Neu.html
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 37K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:36 .
+-rw-r--r-- 1 jan 197121 7,5K Okt  8 15:36 Spickzettel-Markdown.html
+-rw-r--r-- 1 jan 197121  12K Okt  8 15:36 README.html
+-rw-r--r-- 1 jan 197121   20 Okt  8 15:36 Neu.html
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
 
 cms-lokal:
-total 33K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:51 .
--rw-r--r-- 1 jan 197121 7,5K Aug 11 17:51 Spickzettel-Markdown.html
--rw-r--r-- 1 jan 197121  11K Aug 11 17:51 README.html
--rw-r--r-- 1 jan 197121   20 Aug 11 17:51 Neu.html
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 37K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:36 .
+-rw-r--r-- 1 jan 197121 7,5K Okt  8 15:36 Spickzettel-Markdown.html
+-rw-r--r-- 1 jan 197121  12K Okt  8 15:36 README.html
+-rw-r--r-- 1 jan 197121   20 Okt  8 15:36 Neu.html
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
 
-img-out:
-total 8,0K
-drwxr-xr-x 1 jan 197121 0 Aug 11 17:50 .
-drwxr-xr-x 1 jan 197121 0 Aug 11 17:50 ..
+Tabellen:
+total 36K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+-rw-r--r-- 1 jan 197121  149 Okt  8 15:16 Check-Liste.tex
+-rw-r--r-- 1 jan 197121  126 Okt  8 15:16 PDF-Dokumente-einbinden.tex
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:14 .
+-rw-r--r-- 1 jan 197121 8,5K Okt  7 14:55 vorlage.xlsx
+-rw-r--r-- 1 jan 197121  541 Aug 11 17:44 tabelle.md
+-rw-r--r-- 1 jan 197121  254 Aug 11 17:44 tabelle.csv
+-rw-r--r-- 1 jan 197121 1,2K Aug 11 17:44 Tabelle.tex
 
 Artikel:
-total 24K
-drwxr-xr-x 1 jan 197121   0 Aug 11 17:50 ..
-drwxr-xr-x 1 jan 197121   0 Aug 11 17:50 .
--rw-r--r-- 1 jan 197121 914 Aug 11 17:44 README-artikel.tex
--rw-r--r-- 1 jan 197121 942 Aug 11 17:44 Spickzettel-Markdown-artikel.tex
+total 32K
+drwxr-xr-x 1 jan 197121   0 Okt  8 15:35 ..
+drwxr-xr-x 1 jan 197121   0 Okt  8 15:12 .
+-rw-r--r-- 1 jan 197121 924 Okt  7 16:27 ToDo-Liste-artikel.tex
+-rw-r--r-- 1 jan 197121 942 Aug 11 17:51 Spickzettel-Markdown-artikel.tex
+-rw-r--r-- 1 jan 197121 914 Aug 11 17:51 README-artikel.tex
 drwxr-xr-x 1 jan 197121   0 Aug 11 17:44 Bsp
+
+archiv:
+total 71K
+-rw-r--r-- 1 jan 197121  203 Okt  8 15:36 Projekt-Inhalt.txt
+-rw-r--r-- 1 jan 197121  211 Okt  8 15:36 input-PDFs.txt
+-rw-r--r-- 1 jan 197121 2,4K Okt  8 15:36 inhalt.tex
+-rw-r--r-- 1 jan 197121  271 Okt  8 15:36 input-img.txt
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+drwxr-xr-x 1 jan 197121    0 Okt  1 14:13 .
+-rw-r--r-- 1 jan 197121  29K Okt  1 14:13 md.zip
+-rw-r--r-- 1 jan 197121 5,1K Okt  1 14:13 tex.zip
+-rw-r--r-- 1 jan 197121  490 Aug 11 17:51 Pics-files.tex
+-rw-r--r-- 1 jan 197121  778 Aug 11 17:51 Quellcode-files.tex
+
+content:
+total 2,2M
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+-rw-r--r-- 1 jan 197121 2,0K Okt  8 15:35 inhalt.tex
+-rw-r--r-- 1 jan 197121 5,2K Okt  8 11:25 literatur-kfz.bib
+-rw-r--r-- 1 jan 197121  645 Okt  1 14:09 metadata.tex
+-rw-r--r-- 1 jan 197121  566 Okt  1 14:09 titlepage.tex
+drwxr-xr-x 1 jan 197121    0 Sep 29 14:19 .
+-rw-r--r-- 1 jan 197121 1,8M Sep 29 14:09 mindmap.ai
+-rw-r--r-- 1 jan 197121 9,7K Sep 29 13:21 ABC-Liste.xlsx
+-rw-r--r-- 1 jan 197121 1,9K Sep 29 12:49 Cornell-Methode.tex
+-rw-r--r-- 1 jan 197121 2,9K Sep 29 12:49 Cornell-Methode-duplex.tex
+-rw-r--r-- 1 jan 197121  10K Sep 28 18:31 literatur.bib
+-rw-r--r-- 1 jan 197121 6,9K Sep 20 14:52 literatur-sport.bib
+-rw-r--r-- 1 jan 197121 1,6K Aug 11 17:44 print.tex
+-rw-r--r-- 1 jan 197121  653 Aug 11 17:44 zusammenfassung.tex
+-rw-r--r-- 1 jan 197121 2,5K Aug 11 17:44 main-beamer-dummy.tex
+-rw-r--r-- 1 jan 197121 1,5K Aug 11 17:44 book.tex
+drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 beispiele
+-rw-r--r-- 1 jan 197121  960 Aug 11 17:44 artikel.tex
+-rw-r--r-- 1 jan 197121  455 Aug 11 17:44 anhang.tex
+-rw-r--r-- 1 jan 197121  16K Aug 11 17:44 Links.html
+-rw-r--r-- 1 jan 197121  813 Aug 11 17:44 Links.md
+-rw-r--r-- 1 jan 197121 3,6K Aug 11 17:44 LaTeX-Beispiel-beamer.tex
+-rw-r--r-- 1 jan 197121 234K Aug  7 09:57 Vektorgrafiken_Zeichnen_Vorlage.ait
 
 Grafiken:
 total 1,1M
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:49 .
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+-rw-r--r-- 1 jan 197121  33K Aug 11 17:57 logo-eps-converted-to.pdf
+drwxr-xr-x 1 jan 197121    0 Aug 11 17:57 .
 -rw-r--r-- 1 jan 197121 222K Aug 11 17:44 titelbild.pdf
 -rw-r--r-- 1 jan 197121 4,4K Aug 11 17:44 logo.svg
 -rw-r--r-- 1 jan 197121  79K Aug 11 17:44 titelbild-beamer.pdf
 -rw-r--r-- 1 jan 197121  29K Aug 11 17:44 logo.pdf
 -rw-r--r-- 1 jan 197121 709K Aug 11 17:44 logo.eps
 
+images:
+total 752K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+drwxr-xr-x 1 jan 197121    0 Aug 11 17:53 .
+-rw-r--r-- 1 jan 197121 208K Aug 11 17:51 Chili-1.webp
+-rw-r--r-- 1 jan 197121 298K Aug 11 17:51 Chili-1.jpg
+-rw-r--r-- 1 jan 197121 229K Aug 11 17:51 Chili-1.pdf
+
+img-out:
+total 13K
+drwxr-xr-x 1 jan 197121 0 Okt  8 15:35 ..
+drwxr-xr-x 1 jan 197121 0 Aug 11 17:51 Chili
+drwxr-xr-x 1 jan 197121 0 Aug 11 17:51 .
+-rw-r--r-- 1 jan 197121 6 Aug 11 17:51 pics-liste.txt
+
 img-in:
-total 8,0K
-drwxr-xr-x 1 jan 197121 0 Aug 11 17:50 ..
+total 12K
+drwxr-xr-x 1 jan 197121 0 Okt  8 15:35 ..
 drwxr-xr-x 1 jan 197121 0 Aug 11 17:49 .
 drwxr-xr-x 1 jan 197121 0 Aug 11 17:44 Chili
 
 tex:
-total 24K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 28K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+-rw-r--r-- 1 jan 197121 7,9K Aug 11 17:51 README.tex
 drwxr-xr-x 1 jan 197121    0 Aug 11 17:48 .
--rw-r--r-- 1 jan 197121 7,9K Aug 11 17:44 README.tex
 -rw-r--r-- 1 jan 197121 6,8K Aug 11 17:44 Spickzettel-Markdown.tex
 
 scripteBash:
 total 1,9M
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+-rwxr-xr-x 1 jan 197121 3,8K Okt  8 15:19 www.sh
+-rwxr-xr-x 1 jan 197121 3,4K Okt  8 15:18 gitversionieren.sh
+-rwxr-xr-x 1 jan 197121 6,4K Sep 30 09:27 sed.sh
+-rwxr-xr-x 1 jan 197121  608 Sep 30 09:27 projekterstellen.sh
+-rwxr-xr-x 1 jan 197121 3,3K Sep 30 09:27 picFiles.sh
+-rwxr-xr-x 1 jan 197121  787 Sep 30 09:27 projektInhalt.sh
+-rwxr-xr-x 1 jan 197121 1,2K Sep 30 09:27 markdownLatexHtml.sh
+-rwxr-xr-x 1 jan 197121 1,5K Sep 30 09:27 inputPdfsLatex.sh
+-rwxr-xr-x 1 jan 197121 6,1K Sep 30 09:27 jpg-pdf.sh
+-rwxr-xr-x 1 jan 197121 1,1K Sep 30 09:27 inputImgMarkdown.sh
+-rwxr-xr-x 1 jan 197121 3,4K Sep 30 09:27 inputKapitelLatex.sh
+-rwxr-xr-x 1 jan 197121   48 Sep 30 09:27 hallo.sh
+-rwxr-xr-x 1 jan 197121 8,2K Sep 30 09:27 codeFiles.sh
+-rwxr-xr-x 1 jan 197121 4,5K Sep 30 09:27 artikel-anlegen.sh
+-rw-r--r-- 1 jan 197121 1,8M Sep 30 09:27 ISOcoated_v2_eci.icc
 drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
--rwxr-xr-x 1 jan 197121 6,4K Aug 11 17:44 sed.sh
--rwxr-xr-x 1 jan 197121 3,9K Aug 11 17:44 www.sh
 drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 scripte-unbenutzt
--rwxr-xr-x 1 jan 197121  608 Aug 11 17:44 projekterstellen.sh
--rwxr-xr-x 1 jan 197121 3,3K Aug 11 17:44 picFiles.sh
--rwxr-xr-x 1 jan 197121  787 Aug 11 17:44 projektInhalt.sh
--rwxr-xr-x 1 jan 197121 6,1K Aug 11 17:44 jpg-pdf.sh
--rwxr-xr-x 1 jan 197121 1,2K Aug 11 17:44 markdownLatexHtml.sh
--rwxr-xr-x 1 jan 197121 1,1K Aug 11 17:44 inputImgMarkdown.sh
--rwxr-xr-x 1 jan 197121 3,4K Aug 11 17:44 inputKapitelLatex.sh
--rwxr-xr-x 1 jan 197121 1,5K Aug 11 17:44 inputPdfsLatex.sh
--rwxr-xr-x 1 jan 197121 3,4K Aug 11 17:44 gitversionieren.sh
--rwxr-xr-x 1 jan 197121   48 Aug 11 17:44 hallo.sh
--rwxr-xr-x 1 jan 197121 4,5K Aug 11 17:44 artikel-anlegen.sh
--rwxr-xr-x 1 jan 197121 8,2K Aug 11 17:44 codeFiles.sh
--rw-r--r-- 1 jan 197121 1,8M Aug 11 17:44 ISOcoated_v2_eci.icc
 
 md:
-total 114K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
--rw-r--r-- 1 jan 197121 5,4K Aug 11 17:48 README.md
+total 126K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
+-rw-r--r-- 1 jan 197121 6,0K Okt  8 15:34 README.md
+-rw-r--r-- 1 jan 197121 5,2K Okt  8 11:25 literatur-kfz.bib
+-rw-r--r-- 1 jan 197121  10K Sep 28 18:31 literatur.bib
+-rw-r--r-- 1 jan 197121 6,9K Sep 20 14:52 literatur-sport.bib
 drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
 -rw-r--r-- 1 jan 197121  14K Aug 11 17:44 zitierstil-number.csl
--rw-r--r-- 1 jan 197121 7,4K Aug 11 17:44 literatur.bib
 -rw-r--r-- 1 jan 197121  30K Aug 11 17:44 pandoc.latex
--rw-r--r-- 1 jan 197121 2,7K Aug 11 17:44 literatur-kfz.bib
--rw-r--r-- 1 jan 197121 6,9K Aug 11 17:44 literatur-sport.bib
 -rw-r--r-- 1 jan 197121 1,4K Aug 11 17:44 design.css
 -rw-r--r-- 1 jan 197121 6,0K Aug 11 17:44 github.css
 -rw-r--r-- 1 jan 197121  582 Aug 11 17:44 _output.yaml
@@ -130,53 +188,17 @@ drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
 -rw-r--r-- 1 jan 197121 1,6K Aug 11 17:44 Makefile
 -rw-r--r-- 1 jan 197121  153 Aug 11 17:44 Neu.md
 
-images:
-total 244K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
--rw-r--r-- 1 jan 197121 121K Aug 11 17:44 Chili-1.pdf
--rw-r--r-- 1 jan 197121 109K Aug 11 17:44 Chili-1.webp
-
 css:
-total 20K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 24K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
 drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
 -rw-r--r-- 1 jan 197121 1,4K Aug 11 17:44 design.css
 -rw-r--r-- 1 jan 197121 6,0K Aug 11 17:44 github.css
 
-content:
-total 87K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
--rw-r--r-- 1 jan 197121  644 Aug 11 17:45 metadata.tex
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
--rw-r--r-- 1 jan 197121 1,6K Aug 11 17:44 print.tex
--rw-r--r-- 1 jan 197121  566 Aug 11 17:44 titlepage.tex
--rw-r--r-- 1 jan 197121  653 Aug 11 17:44 zusammenfassung.tex
--rw-r--r-- 1 jan 197121 2,5K Aug 11 17:44 main-beamer-dummy.tex
--rw-r--r-- 1 jan 197121 7,4K Aug 11 17:44 literatur.bib
--rw-r--r-- 1 jan 197121 6,9K Aug 11 17:44 literatur-sport.bib
--rw-r--r-- 1 jan 197121 1,5K Aug 11 17:44 book.tex
--rw-r--r-- 1 jan 197121 2,0K Aug 11 17:44 inhalt.tex
--rw-r--r-- 1 jan 197121 2,7K Aug 11 17:44 literatur-kfz.bib
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 beispiele
--rw-r--r-- 1 jan 197121  960 Aug 11 17:44 artikel.tex
--rw-r--r-- 1 jan 197121  455 Aug 11 17:44 anhang.tex
--rw-r--r-- 1 jan 197121  16K Aug 11 17:44 Links.html
--rw-r--r-- 1 jan 197121  813 Aug 11 17:44 Links.md
--rw-r--r-- 1 jan 197121 3,6K Aug 11 17:44 LaTeX-Beispiel-beamer.tex
-
 code:
-total 14K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
+total 18K
+drwxr-xr-x 1 jan 197121    0 Okt  8 15:35 ..
 -rw-r--r-- 1 jan 197121  102 Aug 11 17:44 hallowelt.c
 drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
 -rw-r--r-- 1 jan 197121  152 Aug 11 17:44 hallowelt-C++.cpp
 -rw-r--r-- 1 jan 197121 1,1K Aug 11 17:44 Makefile
-
-Tabellen:
-total 14K
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:50 ..
--rw-r--r-- 1 jan 197121  541 Aug 11 17:44 tabelle.md
-drwxr-xr-x 1 jan 197121    0 Aug 11 17:44 .
--rw-r--r-- 1 jan 197121  254 Aug 11 17:44 tabelle.csv
--rw-r--r-- 1 jan 197121 1,2K Aug 11 17:44 Tabelle.tex

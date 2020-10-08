@@ -1,7 +1,48 @@
-% ju 11-Aug-20
+% ju 08-Okt-20
+\section{README}\label{readme}
+
 Erstellt Websiten \& Latex-Files mit Markdown und Pandoc. Projekt wurde
 getestet unter >>Ubuntu 18.04.3 LTS<< und >>Win10<< (erfordert
 \textbf{Git Bash})
+
+\section{Kurzbefehle}\label{kurzbefehle}
+
+\textbf{Linux-Terminal} oder unter Win10 \textbf{Git Bash-Terminal}
+öffnen
+
+\lstset{language=C}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+# Schreiben in Markdown o. Illustrator o. Excel
+
+./projekt.sh  # Schritt 2, 3, 5
+##########################################################
+    0) Projekt aufräumen
+    1) Projekt erstellen
+    2) Markdown in (tex, html5) + sed (Suchen/Ersetzen)
+    3) Kapitel erstellen + Scripte ausführen
+    4) Fotos optimieren (Web, Latex)
+    5) www + index.html
+    6) git init
+    7) git status + git log
+    8) Git-Version erstellen
+    9) Backup + Archiv erstellen
+##########################################################
+
+# PDF erstellen
+make distclean
+make
+make clean
+
+# Git Version
+git add .
+git commit -a
+git push
+
+# Backup
+./projekt.sh  # Schritt 9
+\end{lstlisting}
 
 \section{Software}\label{software}
 
@@ -102,7 +143,7 @@ getestet unter >>Ubuntu 18.04.3 LTS<< und >>Win10<< (erfordert
 
   \begin{itemize}
   \item
-    >>Grafiken/logo.pdf<<
+    >>Grafiken/logo.eps<<
   \end{itemize}
 \end{enumerate}
 
@@ -122,8 +163,8 @@ getestet unter >>Ubuntu 18.04.3 LTS<< und >>Win10<< (erfordert
   Script ausführen: \verb|projekt.sh|
 \end{enumerate}
 
-\textbf{Linux-Terminal} öffnen oder unter Win10 \textbf{Git
-Bash-Terminal} öffnen
+\textbf{Linux-Terminal} oder unter Win10 \textbf{Git Bash-Terminal}
+öffnen
 
 \lstset{language=C}% C, TeX, Bash, Python 
 \begin{lstlisting}[
