@@ -4,7 +4,7 @@
 # Inhalt vom Projektverzeichnis
 
 # Variablen
-file="Projekt-Inhalt.txt"
+file=Projekt-Inhalt.txt
 archiv="archiv"
 info="Inhalt vom Projektverzeichnis."
 info2="'$archiv/$file'"

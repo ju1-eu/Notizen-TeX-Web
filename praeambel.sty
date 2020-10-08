@@ -23,6 +23,7 @@
 \RequirePackage[dvipsnames,usenames]{xcolor}    % Driver-independent color extensions for LaTeX and pdfLaTeX
 \RequirePackage[bibencoding=utf8]{biblatex}    % Sophisticated Bibliographies in LaTeX
 \RequirePackage{amsmath}          % AMS mathematical facilities for LaTeX
+\RequirePackage{amssymb}          % ToDo Checkbox \begin{itemize} \item [$\square$] \end{itemize}
 \RequirePackage{array}            % Extending the array and tabular environments
 \RequirePackage{chngcntr}         % Change the resetting of counters
 \RequirePackage[automark]{scrlayer-scrpage}    % Define and manage page styles
@@ -207,8 +208,10 @@
 
 % Unterstrich ____
 \RequirePackage{underscore}
-
-\RequirePackage{eurosym}%\euro 20,-
+% Euro
+\RequirePackage[official,right]{eurosym}% \euro 20,-
+% PDF Dokumente einbinden
+\RequirePackage{pdfpages}% \includepdf[pages=-]{Tabellen/Inventar-1}
 
 
 % Marginalien
