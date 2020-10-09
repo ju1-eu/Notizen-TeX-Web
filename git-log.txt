@@ -1,6 +1,9 @@
-ju 01-Okt-2020 git-log.txt
-* af0714f (HEAD -> master) Thema
-* 602b033 (origin/master) mindmap - abs-liste
+ju 08-Okt-2020 git-log.txt
+* f49fe44 (HEAD -> master) readme
+* e6a6848 (origin/master) prj verbessert
+* 2584012 eurosymbol
+* af0714f Thema
+* 602b033 mindmap - abs-liste
 * 01f0410 cornell methode
 * 024b386 literatur lernen
 * cde86e6 literatur.bib geändert

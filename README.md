@@ -4,14 +4,16 @@ Erstellt Websiten & Latex-Files mit Markdown und Pandoc.
 Projekt wurde getestet unter "Ubuntu 18.04.3 LTS" und "Win10" 
 (erfordert **Git Bash**)  
 
-# Kurzbefehle
+# Mitschrift - Kurzbefehle
 
 **Linux-Terminal** oder unter Win10 **Git Bash-Terminal** öffnen
 
 ```
-# Schreiben in Markdown o. Illustrator o. Excel
+# Github-Repository klonen
+git clone https://github.com/ju1-eu/Notizen-TeX-Web.git notiz
 
-./projekt.sh  # Schritt 2, 3, 5
+# Schreiben in Markdown o. Illustrator o. Excel
+./projekt.sh  # Schritt 2, 3)
 ##########################################################
 	0) Projekt aufräumen
 	1) Projekt erstellen
@@ -26,17 +28,20 @@ Projekt wurde getestet unter "Ubuntu 18.04.3 LTS" und "Win10"
 ##########################################################
 
 # PDF erstellen
+# Anpassen: content/inhalt.tex
+# Kopie:    tex-pandoc/*.tex -> tex/
 make distclean
 make
 make clean
 
 # Git Version
+./projekt.sh  # Schritt 8) oder
 git add .
 git commit -a
-git push
+git push      # Github-Repository
 
 # Backup
-./projekt.sh  # Schritt 9
+./projekt.sh  # Schritt 9)
 ```  
     
 # Software
