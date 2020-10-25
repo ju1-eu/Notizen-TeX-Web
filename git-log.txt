@@ -1,6 +1,7 @@
-ju 18-Okt-2020 git-log.txt
-* 5ca8ae9 (HEAD -> master) excel vorlage
-* 5f5c72c (origin/master) readme
+ju 21-Okt-2020 git-log.txt
+* 6de2dd4 (HEAD -> master) excel vorlage
+* 5ca8ae9 (origin/master) excel vorlage
+* 5f5c72c readme
 * f49fe44 readme
 * e6a6848 prj verbessert
 * 2584012 eurosymbol
