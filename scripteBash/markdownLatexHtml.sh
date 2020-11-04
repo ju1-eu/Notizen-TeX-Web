@@ -14,8 +14,8 @@ BIB_1="../content/literatur.bib"
 BIB_2="../content/literatur-kfz.bib"
 BIB_3="../content/literatur-sport.bib"
 CSL="zitierstil-number.csl"
-HTML_OPTIONS="-s --toc  -t html5 --from markdown+smart --bibliography $BIB_1 --bibliography $BIB_2 --bibliography $BIB_3 --filter pandoc-citeproc --csl $CSL --mathjax --strip-comments -c $CSS"
-HTML_WP_OPTIONS="-t html5 --from markdown+smart --bibliography $BIB_1 --bibliography $BIB_2 --bibliography $BIB_3 --filter pandoc-citeproc --csl $CSL --mathjax --strip-comments" 
+HTML_OPTIONS="-s --toc  -t html5 --from markdown+smart --bibliography $BIB_1 --bibliography $BIB_2 --bibliography $BIB_3 --citeproc --csl $CSL --mathjax --strip-comments -c $CSS"
+HTML_WP_OPTIONS="-t html5 --from markdown+smart --bibliography $BIB_1 --bibliography $BIB_2 --bibliography $BIB_3 --citeproc --csl $CSL --mathjax --strip-comments" 
 
 echo "+ Markdown in Latex + HTML5 + Wordpress"
 

@@ -1,3 +1,11 @@
+---
+title: 'README'
+author: ''
+date: \today
+bibliography: literatur.bib 
+csl: zitierstil-number.csl
+---
+<!--ju 10-Aug-20 -->
 # README
 <!--ju 8-Okt-20 -->
 Erstellt Websiten & Latex-Files mit Markdown und Pandoc.

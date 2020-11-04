@@ -1,5 +1,5 @@
 % -------------------------------------------------------
 % Tabellen als PDFs in Latex einfügen. 'Tabellen/*.pdf ?' 
-% ju 08-Okt-2020 input-PDFs.txt
+% ju 04-Nov-2020 input-PDFs.txt
 % -------------------------------------------------------
 % 

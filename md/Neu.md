@@ -1,5 +1,5 @@
 ---
-title: 'Markdown-Spickzettel'
+title: 'Neu'
 author: ''
 date: \today
 bibliography: literatur.bib 

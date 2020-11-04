@@ -1,6 +1,7 @@
-ju 21-Okt-2020 git-log.txt
-* 6de2dd4 (HEAD -> master) excel vorlage
-* 5ca8ae9 (origin/master) excel vorlage
+ju 25-Okt-2020 git-log.txt
+* d7ee0c0 (HEAD -> master) excelvorlage
+* 6de2dd4 (origin/master) excel vorlage
+* 5ca8ae9 excel vorlage
 * 5f5c72c readme
 * f49fe44 readme
 * e6a6848 prj verbessert

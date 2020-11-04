@@ -1,7 +1,7 @@
 <!-----------------------------------------------
 Alle Abbildungen 'images/' in Markdown speichern.
 	* 'archiv/input-img.txt'
-ju 08-Okt-2020 input-img.txt
+ju 04-Nov-2020 input-img.txt
 ------------------------------------------------->
 
 
