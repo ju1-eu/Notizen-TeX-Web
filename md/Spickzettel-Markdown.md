@@ -52,7 +52,7 @@ update: 10-Aug-20
    
 #  Quellen
   
-Quelle: [@monk:2016:action]
+Quelle: [@spanner:2019:robotik]
 
 Quelle: [@homofaciens:2018:projekt]
 
@@ -135,20 +135,20 @@ Abbildung-Bsp vgl. abb.
 
 Tabelle-Bsp vgl. tab.
   
-|**Nr.**|**Begriffe**|**Erklärung**|
-|------:|:-----------|:------------|
-| 1     | a1         | a2		   
-| 2     | b1         | b2		   
-| 3     | c1         | c2		   
-| 4     | a1         | a2		   
+| **Nr.** | **Begriffe** | **Erklärung** |
+| ------: | :----------- | :------------ |
+|       1 | a1           | a2            |
+|       2 | b1           | b2            |
+|       3 | c1           | c2            |
+|       4 | a1           | a2            |
 
 ```
-|**Nr.**|**Begriffe**|**Erklärung**|
-|------:|:-----------|:------------|
-| 1     | a1         | a2		   
-| 2     | b1         | b2		   
-| 3     | c1         | c2		   
-| 4     | a1         | a2		   
+| **Nr.** | **Begriffe** | **Erklärung** |
+| ------: | :----------- | :------------ |
+|       1 | a1           | a2            |
+|       2 | b1           | b2            |
+|       3 | c1           | c2            |
+|       4 | a1           | a2            |
 ```
   
 #  Mathe

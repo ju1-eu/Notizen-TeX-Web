@@ -14,6 +14,7 @@
 # Variablen
 file="Pics-files.tex"
 images="images"
+grafik="Grafiken"
 bildgroesse=".80"    # width=.80\textwidth
 archiv="archiv"
 info="Alle Abbildungen '$images/' in Latex speichern"
@@ -56,7 +57,7 @@ if [ $exist -ge 1 ]; then
         echo "%"                                         >> ../$archiv/$file
         echo "%$picname (\autoref{fig:$picname}).% Referenz"   >> ../$archiv/$file
         echo "$T1"                                       >> ../$archiv/$file
-        echo "  \includegraphics[width=$bildgroesse\textwidth]{images/$i}%" >> ../$archiv/$file
+        echo "  \includegraphics[width=$bildgroesse\textwidth]{$images/$i}%" >> ../$archiv/$file
 	    echo "  \caption{$picname}%\label{fig:$picname}%% anpassen"         >> ../$archiv/$file   
         echo "$T2"                                       >> ../$archiv/$file                                       >> ../$archiv/$file
         echo "%\newpage"                                 >> ../$archiv/$file
@@ -77,7 +78,53 @@ if [ $exist -ge 1 ]; then
         echo "%"                                         >> ../$archiv/$file
         echo "%$picname (\autoref{fig:$picname}).% Referenz"   >> ../$archiv/$file
         echo "$T1"                                       >> ../$archiv/$file
-        echo "  \includegraphics[width=$bildgroesse\textwidth]{images/$i}%" >> ../$archiv/$file
+        echo "  \includegraphics[width=$bildgroesse\textwidth]{$images/$i}%" >> ../$archiv/$file
+	    echo "  \caption{$picname}%\label{fig:$picname}%% anpassen"         >> ../$archiv/$file   
+        echo "$T2"                                       >> ../$archiv/$file                                       >> ../$archiv/$file
+        echo "%\newpage"                                 >> ../$archiv/$file
+        ((n+=1))
+    done
+fi
+
+cd ..
+
+cd $grafik
+
+EXTENSION="eps" 
+exist=$(find -iname "*.$EXTENSION" | wc -l)
+n=1 # Pic Zaehler ((n+=1))
+if [ $exist -ge 1 ]; then
+    # vorhanden
+    for i in *.$EXTENSION; do
+        # Dateiname ohne Endung
+        picname=`basename "$i" .$EXTENSION` # anpassen
+        # latex quellcode
+        echo "%\section{$picname}"                       >> ../$archiv/$file
+        echo "%"                                         >> ../$archiv/$file
+        echo "%$picname (\autoref{fig:$picname}).% Referenz"   >> ../$archiv/$file
+        echo "$T1"                                       >> ../$archiv/$file
+        echo "  \includegraphics[width=$bildgroesse\textwidth]{$grafik/$i}%" >> ../$archiv/$file
+	    echo "  \caption{$picname}%\label{fig:$picname}%% anpassen"         >> ../$archiv/$file   
+        echo "$T2"                                       >> ../$archiv/$file                                       >> ../$archiv/$file
+        echo "%\newpage"                                 >> ../$archiv/$file
+        ((n+=1))
+    done
+fi
+
+EXTENSION="pdf" 
+exist=$(find -iname "*.$EXTENSION" | wc -l)
+n=1 # Pic Zaehler ((n+=1))
+if [ $exist -ge 1 ]; then
+    # vorhanden
+    for i in *.$EXTENSION; do
+        # Dateiname ohne Endung
+        picname=`basename "$i" .$EXTENSION` # anpassen
+        # latex quellcode
+        echo "%\section{$picname}"                       >> ../$archiv/$file
+        echo "%"                                         >> ../$archiv/$file
+        echo "%$picname (\autoref{fig:$picname}).% Referenz"   >> ../$archiv/$file
+        echo "$T1"                                       >> ../$archiv/$file
+        echo "  \includegraphics[width=$bildgroesse\textwidth]{$grafik/$i}%" >> ../$archiv/$file
 	    echo "  \caption{$picname}%\label{fig:$picname}%% anpassen"         >> ../$archiv/$file   
         echo "$T2"                                       >> ../$archiv/$file                                       >> ../$archiv/$file
         echo "%\newpage"                                 >> ../$archiv/$file
