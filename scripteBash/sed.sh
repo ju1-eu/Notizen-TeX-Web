@@ -10,12 +10,13 @@
 
 
 # ANPASSEN
-codelanguage="C"      # HTML5, Python, Bash, C, C++, TeX
+codelanguage="Bash"      # HTML5, Python, Bash, C, C++, TeX
 
 # CMS
 # Server Pfad anpassen Zeile 80
-# https://bw-ju.de/#
-PFAD_SERVER="https:\/\/bw-ju.de\/#"
+# https://bw-ju.de/wp-content/uploads/2020/11
+timestamp_2=$(date +"%Y\/%m") # 2020\/11
+PFAD_SERVER="https:\/\/bw-ju.de\/wp-content\/uploads\/$timestamp_2"
 #..\/images
 #..\/Grafiken
 
@@ -43,7 +44,7 @@ for i in *.html; do
 	#sed -i '/"images/ s//"..\/images/g' "$i"
 	#sed -i '/"Grafiken/ s//"..\/Grafiken/g' "$i"
 	sed -i '/.eps/ s//.'$bildformat'/g' "$i"
-	sed -i '/.pdf/ s//.'$bildformat_2'/g' "$i"
+	sed -i '/.pdf/ s//.'$bildformat_3'/g' "$i"
 	sed -i '/\/><figcaption>/ s//alt="Bildname"> \n	<figcaption>Abb. : /g' "$i"
 	sed -i 's/<embed/	<!--Link auf Bild anpassen-->/g' "$i"
 	sed -i 's/src="images/\n	<img class=scaled src="..\/images/g' "$i"
@@ -62,7 +63,7 @@ for i in *.html; do
 	#sed -i '/"images/ s//"..\/images/g' "$i"
 	#sed -i '/"Grafiken/ s//"..\/Grafiken/g' "$i"
 	sed -i '/.eps/ s//.'$bildformat'/g' "$i"
-	sed -i '/.pdf/ s//.'$bildformat_2'/g' "$i"
+	sed -i '/.pdf/ s//.'$bildformat_3'/g' "$i"
 	sed -i '/\/><figcaption>/ s//alt="Bildname"> \n	<figcaption>Abb. : /g' "$i"
 	sed -i 's/<embed/	<!--Link auf Bild anpassen-->/g' "$i"
 	sed -i 's/src="images/\n	<img class=scaled src="'$PFAD_SERVER'/g' "$i"
