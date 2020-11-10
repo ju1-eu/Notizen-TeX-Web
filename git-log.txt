@@ -1,6 +1,7 @@
-ju 09-Nov-2020 git-log.txt
-* 3bd7428 (HEAD -> master) picFiles
-* f636c64 (origin/master) test
+ju 10-Nov-2020 git-log.txt
+* 40f110f (HEAD -> master) sed serverpfad
+* 3bd7428 (origin/master) picFiles
+* f636c64 test
 * e0b49f9 update
 * fece7ef update
 * d7ee0c0 excelvorlage

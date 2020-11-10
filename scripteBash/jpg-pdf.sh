@@ -107,9 +107,9 @@ while read ORDNER ; do
 	cd $tmp_2
 
 	# 300dpi
-	echo "+ Druck 300 dpi + cmyk Farbprofil ISOcoated_v2_eci.icc"
-	mogrify -resample 300x300 ./*	
-	mogrify -colorspace cmyk -profile ../../../scripteBash/ISOcoated_v2_eci.icc ./*	
+	#echo "+ Druck 300 dpi + cmyk Farbprofil ISOcoated_v2_eci.icc"
+	#mogrify -resample 300x300 ./*	
+	#mogrify -colorspace cmyk -profile ../../../scripteBash/ISOcoated_v2_eci.icc ./*	
 	
 	# Auflösung
 	echo "+ Auflösung $AUFLOESUNG_TEX"
